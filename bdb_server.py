@@ -6,15 +6,15 @@ Exposed via Pyro5 to BAS server ONLY meaning BC client has no direct access.
 Transfers are initiated by phone number (PAYID); BDB connects phone number to account_id.
 ===========================================================================
 INSTRUCTIONS
-to run the program, place all 6 python files in one location, then open 4 terminal
+to run the program, place all 5 python files in one location, then open 4 terminal
 windows at the location. paste each command in each terminal in the following order:
 - python -m Pyro5.nameserver
 - python bdb_server.py
 - python bas_server.py
 once all three are running in separate terminals, execute the final one for the UI:
-python bas_server.py
+python bc_client.py
 ===========================================================================
-Aaron Kalaji 10670705, CSI3344 Assignment 2
+Aaron Mark Kalaji, CSI3344 Assignment 2
 """
 
 import sqlite3

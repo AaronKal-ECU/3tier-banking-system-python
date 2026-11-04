@@ -5,7 +5,7 @@ this file is used to keep logic consistent across the system.
 All monetary values stored as integer CENTS to avoid floating point.
 Phone numbers are normalised to 10-digit Australian mobile format regardless of input
 ===========================================================================
-Aaron Kalaji 10670705, CSI3344 Assignment 2
+Aaron Mark Kalaji, CSI3344 Assignment 2
 """
 
 import math

@@ -8,9 +8,9 @@ windows at the location. paste each command in each terminal in the following or
 - python bdb_server.py
 - python bas_server.py
 once all three are running in separate terminals, execute the final one for the UI:
-python bas_server.py
+python bc_client.py
 ===========================================================================
-Aaron Kalaji 10670705, CSI3344 Assignment 2
+Aaron Mark Kalaji, CSI3344 Assignment 2
 """
 
 import uuid

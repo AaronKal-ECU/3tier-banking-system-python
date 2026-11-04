@@ -9,7 +9,7 @@ Output files:
   - db_export/audit_log.csv
   - db_export/banking_data.xlsx  (all tables in one workbook)
 ===========================================================================
-Aaron Kalaji 10670705, CSI3344 Assignment 2
+Aaron Mark Kalaji, CSI3344 Assignment 2
 """
 
 import sqlite3
