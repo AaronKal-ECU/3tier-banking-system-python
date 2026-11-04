@@ -32,8 +32,8 @@ def calculate_fee_cents(amount_cents):
 
 USERS = {
     "aaron": {"password_hash": hashlib.sha256("aaron123".encode()).hexdigest(), "full_name": "Aaron Kalaji",  "account_id": "ACC001", "phone": "0411111111", "balance_cents": 1_000_000},
-    "harry": {"password_hash": hashlib.sha256("harry123".encode()).hexdigest(), "full_name": "Harry Evans",   "account_id": "ACC002", "phone": "0422222222", "balance_cents": 2_000_000},
-    "kun":   {"password_hash": hashlib.sha256("kun123".encode()).hexdigest(),   "full_name": "Kun Zhang",     "account_id": "ACC003", "phone": "0433333333", "balance_cents": 9_999_999},
+    "sam":   {"password_hash": hashlib.sha256("sam123".encode()).hexdigest(),   "full_name": "Sam Taylor",    "account_id": "ACC002", "phone": "0422222222", "balance_cents": 2_000_000},
+    "priya": {"password_hash": hashlib.sha256("priya123".encode()).hexdigest(), "full_name": "Priya Nair",    "account_id": "ACC003", "phone": "0433333333", "balance_cents": 9_999_999},
 }
 
 PHONE_INDEX = {u["phone"]: uname for uname, u in USERS.items()}

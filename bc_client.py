@@ -54,8 +54,8 @@ def press_enter():
 def screen_login():
     print_header("Welcome to The Banking System, Please Sign In")
     print("  Testing Accounts:                          \n")
-    print("  usernames:     aaron,      harry,       kun")
-    print("  passwords:     aaron123,   harry123,    kun123")
+    print("  usernames:     aaron,      sam,         priya")
+    print("  passwords:     aaron123,   sam123,      priya123")
     print("  balances:      $1,000,000  $2,000,000   $9,999,999")
     username = input("  Username: ").strip()
     if not username:
