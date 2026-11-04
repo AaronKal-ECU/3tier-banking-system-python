@@ -30,4 +30,6 @@ python bc_client.py
 ```
 Log in with `aaron` / `aaron123`. Run `python export_db.py` afterwards to export the database. To run the tiers on separate machines, see [RUNNING.md](RUNNING.md).
 
+I used Claude as a coding assistant while designing and refactoring this project.
+
 Built for CSI3344 Distributed Systems at Edith Cowan University, 2026.
