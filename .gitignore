@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.idea/
+.vscode/
+.DS_Store
+.venv/
+venv/
+*.db
+*.db-wal
+*.db-shm
+phase1_state.json
+db_export/
