@@ -2,6 +2,8 @@
 
 A distributed banking app split into three networked tiers (command-line client, application server, database server) that talk to each other through Pyro5 remote objects.
 
+![Client session: login, balance, PayID transfer and history](docs/banking-client.png)
+
 ## What I built
 - Three separately runnable tiers registered with a Pyro5 name server, so each one can run on its own machine. The client never touches the database directly.
 - PayID-style transfers: look up a recipient by Australian mobile number, confirm their masked name ("Aaron K."), then send.
